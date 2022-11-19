@@ -1,4 +1,4 @@
-const gridSize = 4;
+const gridSize = 20;
 const paths = Array(gridSize+1).fill(1);
 for (let i = 0; i < gridSize; i++) {
 	for (let j = 1; j < paths.length; j++) {
